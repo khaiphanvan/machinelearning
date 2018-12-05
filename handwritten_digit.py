@@ -6,7 +6,7 @@ from sklearn.cluster import KMeans
 
 from display_network import *
 
-mndata = MNIST('data/MNIST/') # path to your MNIST folder
+mndata = MNIST('C:/Users/STC-05/Desktop/data/MNIST/') # path to your MNIST folder
 mndata.load_testing()
 X = mndata.test_images
 
